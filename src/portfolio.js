@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Kaiqbal",
+  title: "Hi all, I'm Iqbal Faris Ihsani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications. And i like to learn new things, like design, Ai Builder, IoT and many more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Kaiqbal29",
+  linkedin: "https://www.linkedin.com/in/iqbal-faris-ihsani/",
+  gmail: "iqbalfarisihsani@gmail.com",
+  instagram: "https://www.instagram.com/Kaiqbal29_/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -69,13 +66,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -100,10 +98,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -126,24 +121,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "SMK Negeri 4 Yogyakarta",
+      logo: require("./assets/images/smkLogo.png"),
+      subHeader: "Software Engineering",
+      duration: "2019 - 2022",
+      desc: "Took courses about Software Engineering, Web Development, Operating Systems, Database, and more",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "University of Amikom Yogyakarta",
+      logo: require("./assets/images/amikomLogo.png"),
+      subHeader: "Informatics Engineering",
+      duration: "September 2021 - Now",
+      desc: "Took courses about Software Engineering, Web Development, Operating Systems, Database, and more",
+    },
+    
   ]
 };
 
@@ -158,11 +149,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +165,76 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Kominfo",
+      companylogo: require("./assets/images/kominfoLogo.png"),
+      date: "January 2020 – April 2020",
+      desc: "I have responsibility for developing and managing projects within my team.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Website Development",
+        "Database Management",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Joki Tugas Kaidev",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelanceLogo.png"),
+      date: "November 2022 – Now",
+      desc: "Mengerjakan tugas mahasiswa dari berbagai universitas di Indonesia.",
+      descBullets: [
+        "Projek berkaitan programmer",
+        "Designing",
+        "Other",
+
+      ]
+    },
+
+  ]
+};
+
+const OtherExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Anggota Osis",
+      company: "SMK Negeri 4 ",
+      companylogo: require("./assets/images/smkLogo.png"),
+      date: "2019 – 2022",
+      desc: "I have responsibility for general meeting and support school event and other activities.",
+
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Dokumentasi Event",
+      company: "Panitia Event",
+      companylogo: require("./assets/images/eventLogo.png"),
+      date: "Juni 2023",
+      desc: "Mengerjakan tugas dibagian dokumentasi saat event berlangsung",
+      descBullets: [
+        "Photography",
+        "Videography",
+        "Other",
+
+      ]
+    },
+    {
+      role: "Partisipasi BAPAREKRAF Developer Day",
+      company: "Dicoding Offline Event",
+      companylogo: require("./assets/images/event2Logo.png"),
+      date: "October 2025",
+      desc: "Menghadiri event baparekraf developer day dan dicoding offline event pada divisi Mobile Developer untuk menambah pengetahuan dan pengalaman"   
+    },
+    {
+      role: "Partisipasi Kunujungan",
+      company: "Kunjungan Industri",
+      companylogo: require("./assets/images/amikomLogo.png"),
+      date: "May 2024 & 2025",
+      desc: "Menghadiri kunjungan industri yang berkaitan dengan teknologi IT untuk menambah pengetahuan dan pengalaman seputar industri tersebut",
+      descBullets: [
+        "Kominfo Center Office",
+        "Qwords",
+        "NTT Data",
+        "ExaByte"
+      ]   
     }
   ]
 };
@@ -394,6 +432,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  OtherExperiences,
   openSource,
   bigProjects,
   achievementSection,

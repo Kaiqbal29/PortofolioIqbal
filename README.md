@@ -266,11 +266,11 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d9b15079634b6b8b9a41faa05cfa21a22fe69a3
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
----
