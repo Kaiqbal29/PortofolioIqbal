@@ -410,8 +410,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-    showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true,
   number: "+62 831-3741-2008",
   email_address: "iqbalfarisihsani@gmail.com"
 };

@@ -56,8 +56,7 @@ const Main = () => {
             <OtherExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
-            
+            <Achievement />          
             <Profile />
             <Footer />
             <ScrollToTopButton />
