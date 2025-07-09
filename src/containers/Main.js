@@ -8,12 +8,9 @@ import OtherExperience from "./otherExperience/OtherExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-
 import Footer from "../components/footer/Footer";
-
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
