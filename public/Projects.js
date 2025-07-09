@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
-import "./Project.scss";
+import "Project.scss";
 import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch("profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
